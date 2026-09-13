@@ -3,7 +3,32 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>چاشنی — نشریه علمی‌دانشجویی علوم تغذیه و بهداشت و ایمنی مواد غذایی</title>
+<title>نشریه علمی دانشجویی چاشنی | علوم تغذیه و بهداشت و ایمنی مواد غذایی</title>
+<meta name="description" content="وب‌سایت نشریه علمی دانشجویی چاشنی؛ وابسته به انجمن علمی دانشجویی رشته علوم تغذیه و بهداشت و ایمنی مواد غذایی دانشگاه علوم پزشکی مشهد. مشاهده و دریافت شماره‌های نشریه چاشنی.">
+<meta name="keywords" content="نشریه علمی دانشجویی چاشنی, چاشنی, مجله چاشنی, علوم تغذیه, بهداشت و ایمنی مواد غذایی, دانشگاه علوم پزشکی مشهد, نشریه دانشجویی علوم تغذیه, مجله تغذیه">
+<meta name="author" content="نشریه علمی دانشجویی چاشنی - دانشگاه علوم پزشکی مشهد">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta property="og:locale" content="fa_IR">
+<meta property="og:type" content="website">
+<meta property="og:title" content="نشریه علمی دانشجویی چاشنی">
+<meta property="og:description" content="وب‌سایت نشریه علمی دانشجویی چاشنی، وابسته به انجمن علمی دانشجویی رشته علوم تغذیه و بهداشت و ایمنی مواد غذایی دانشگاه علوم پزشکی مشهد.">
+<meta property="og:site_name" content="چاشنی">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Periodical",
+  "name": "نشریه علمی دانشجویی چاشنی",
+  "alternateName": "چاشنی",
+  "inLanguage": "fa-IR",
+  "description": "نشریه علمی دانشجویی حوزه علوم تغذیه و بهداشت و ایمنی مواد غذایی، وابسته به دانشگاه علوم پزشکی مشهد.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "انجمن علمی دانشجویی رشته علوم تغذیه و بهداشت و ایمنی مواد غذایی - دانشگاه علوم پزشکی مشهد"
+  },
+  "isAccessibleForFree": true
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -996,7 +1021,7 @@ function openDetail(num){
       <div class="detail-cover">
         ${issue.cover ? `<img src="${issue.cover}" alt="جلد شماره ${issue.num}">` : `<div style="height:100%;min-height:420px;display:flex;align-items:center;justify-content:center;"><span class="ph-num" style="font-size:5rem;font-weight:900;color:rgba(244,239,228,0.18);">${toFa(issue.num)}</span></div>`}
       </div>
-      <a href="${issue.pdf}" target="_blank" rel="noopener" class="btn btn-primary" style="width:100%;justify-content:center;margin-top:20px;">
+      <a href="${issue.pdf}" download="چاشنی-شماره-${issue.num}.pdf" class="btn btn-primary">
         دانلود فایل کامل
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 21h16"/></svg>
       </a>
